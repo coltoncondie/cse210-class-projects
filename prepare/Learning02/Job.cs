@@ -4,9 +4,8 @@ using System.Security.AccessControl;
 
 public class Job
 {
-
-    public string _company;
     public string _jobTitle;
+    public string _company;
     public int _startYear;
     public int _endYear;
 
