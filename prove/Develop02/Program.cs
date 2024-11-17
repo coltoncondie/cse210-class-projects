@@ -22,7 +22,7 @@ class Program
             Console.WriteLine("3. Save the journal to a file");
             Console.WriteLine("4. Load the journal from a file");
             Console.WriteLine("5. Quit");
-            Console.WriteLine("What would tou like to do? ");
+            Console.WriteLine("What would you like to do? ");
 
             string choice = Console.ReadLine();
 
