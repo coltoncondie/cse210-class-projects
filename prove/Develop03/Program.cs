@@ -12,7 +12,7 @@ class Program
             Console.Clear(); //This is the menu design
             Console.WriteLine("//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\");
             Console.WriteLine("||       Scripture Memorizer Menu      ||");
-            Console.WriteLine("||   1. Reapeat the same scripture     ||");
+            Console.WriteLine("||   1. Reapeat the Main scripture     ||");
             Console.WriteLine("||      2. Add a new Scripture         ||");
             Console.WriteLine("||             3. Quit                 ||");
             Console.Write("||        Choose an option (1-3): ");
