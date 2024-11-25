@@ -76,11 +76,11 @@ class Program
         }
 
         Console.Write("Enter the End Verse (or press Enter to Skip): ");
+        int? endVerse = null; // Declare endVerse here
         string endVerseInput = Console.ReadLine();
-        int? EndVerse = null;
         if (!string.IsNullOrEmpty(endVerseInput) && int.TryParse(endVerseInput, out int parsedEndVerse))
         {
-           EndVerse = parsedEndVerse; 
+           endVerse = parsedEndVerse; // Assign value to endVerse if input is valid
         }
 
         Console.Write("Enter the Scripture Text: ");
