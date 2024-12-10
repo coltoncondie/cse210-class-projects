@@ -26,11 +26,11 @@ public class BreathingActivity : Activity
         while (DateTime.Now < endTime)
         {
             Console.Write("Breath in deeply and slowly, focus on the feeling and sound of your breath...");
-            AnimatePause(5); // This will pause for 3 seconds
+            AnimatePause(4); // This will pause for 4 seconds
             Console.Write("\r     \r"); // This will clear the line for a clear display
 
             Console.Write("Breath out smooth and slow, as you breath out push all thoughts out with it...");
-            AnimatePause(5); // Another pause for 3 seconds
+            AnimatePause(4); // Another pause for 4 seconds
             Console.Write("\r     \r"); // clear the line for a clean finish
         }
 
