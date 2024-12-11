@@ -8,7 +8,7 @@ class Program
         while (true)
         {
             Console.Clear();
-            Console.WriteLine("Welcome to the Mindfulness Program!");
+            Console.WriteLine("Welcome to the Mindfulness Program!");    // I used Chat GPT with this assignment, but everything was typed by hand and all ideas as to how it is structured is from me and verified with other resources. 
             Console.WriteLine("Select an activity: ");
             Console.WriteLine("1. Breathing Activity");
             Console.WriteLine("2. Reflection Activity");
@@ -47,7 +47,7 @@ class Program
     private static void RunBreathingActivity()
     {
         BreathingActivity breathingActivity = new BreathingActivity();
-        breathingActivity.PerformActivity();
+        breathingActivity.RunActivity();
         PauseBeforeContinuing();
     }
 
